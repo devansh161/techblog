@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechBlog | Learn Web Development</title>
+
+    <meta name="description" content="TechBlog - Learn HTML, CSS, JavaScript and Web Development">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= LOADER ================= -->
+
+<div id="loader">
+
+    <div class="spinner"></div>
+
+</div>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav>
+
+    <div class="logo">
+
+        <i class="fa-solid fa-code"></i>
+
+        <h2>TechBlog</h2>
+
+    </div>
+
+    <ul id="navLinks">
+
+        <li><a href="#">Home</a></li>
+
+        <li><a href="#blogs">Blogs</a></li>
+
+        <li><a href="#newsletter">Newsletter</a></li>
+
+        <li><a href="about.html">About</a></li>
+
+        <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+
+    <div class="nav-buttons">
+
+        <button id="themeBtn">
+
+            <i class="fa-solid fa-moon"></i>
+
+        </button>
+
+        <button id="menuBtn">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </button>
+
+    </div>
+
+</nav>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <span class="badge">
+
+            🚀 Learn Modern Web Development
+
+        </span>
+
+        <h1>
+
+            Build Better Websites <br>
+
+            One Blog at a Time.
+
+        </h1>
+
+        <p>
+
+            Free tutorials on HTML, CSS, JavaScript,
+            React, Git and everything you need
+            to become a Frontend Developer.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#blogs" class="primary-btn">
+
+                Explore Blogs
+
+            </a>
+
+            <a href="about.html" class="secondary-btn">
+
+                Learn More
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="images/premium_photo-1682097967456-7f1c2bd9397f.avif" alt="Programming">
+
+    </div>
+
+</section>
+
+<!-- ================= SEARCH ================= -->
+
+<section class="search-section">
+
+    <h2>Find Your Next Tutorial</h2>
+
+    <input
+
+    type="text"
+
+    id="search"
+
+    placeholder="Search HTML, CSS, JavaScript..."
+
+    >
+
+</section>
+
+<!-- ================= FILTERS ================= -->
+
+<section class="filters">
+
+    <button class="active">All</button>
+
+    <button>HTML</button>
+
+    <button>CSS</button>
+
+    <button>JavaScript</button>
+
+    <button>React</button>
+
+</section>
+
+<!-- ================= BLOGS ================= -->
+
+<section id="blogs" class="blogs">
+
+<!-- CARD 1 -->
+
+<div class="card html">
+
+<img src="images/3d-rendered-html-file-icon_84443-57041.avif">
+
+<span>HTML</span>
+
+<h3>Complete HTML Guide</h3>
+
+<p>
+
+Learn HTML from beginner to advanced
+with practical examples.
+
+</p>
+
+<a href="blog.html">
+
+Read More →
+
+</a>
+
+</div>
+
+<!-- CARD 2 -->
+
+<div class="card css">
+
+<img src="images/images.jpg">
+
+<span>CSS</span>
+
+<h3>Master Flexbox & Grid</h3>
+
+<p>
+
+Create beautiful responsive layouts
+using modern CSS.
+
+</p>
+
+<a href="blog.html">
+
+Read More →
+
+</a>
+
+</div>
+
+<!-- CARD 3 -->
+
+<div class="card javascript">
+
+<img src="images/images (1).jpg">
+
+<span>JavaScript</span>
+
+<h3>DOM Manipulation</h3>
+
+<p>
+
+Learn how JavaScript makes
+websites interactive.
+
+</p>
+
+<a href="blog.html">
+
+Read More →
+
+</a>
+
+</div>
+
+<!-- CARD 4 -->
+
+<div class="card react">
+
+<img src="images/images.png">
+
+<span>React</span>
+
+<h3>React Basics</h3>
+
+<p>
+
+Build reusable components
+using ReactJS.
+
+</p>
+
+<a href="blog.html">
+
+Read More →
+
+</a>
+
+</div>
+
+<!-- CARD 5 -->
+
+<div class="card html">
+
+<img src="images/images (3).jpg">
+
+<span>HTML</span>
+
+<h3>Forms & Validation</h3>
+
+<p>
+
+Create professional forms
+with validation.
+
+</p>
+
+<a href="blog.html">
+
+Read More →
+
+</a>
+
+</div>
+
+<!-- CARD 6 -->
+
+<div class="card css">
+
+<img src="images/animation-child-running_1196-508.avif">
+
+<span>CSS</span>
+
+<h3>CSS Animations</h3>
+
+<p>
+
+Bring your websites alive
+using CSS animations.
+
+</p>
+
+<a href="blog.html">
+
+Read More →
+
+</a>
+
+</div>
+
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section id="newsletter" class="newsletter">
+
+<h2>
+
+Subscribe to our Newsletter
+
+</h2>
+
+<p>
+
+Get weekly coding tutorials directly in your inbox.
+
+</p>
+
+<div class="newsletter-box">
+
+<input
+
+type="email"
+
+placeholder="Enter your email"
+
+>
+
+<button>
+
+Subscribe
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ================= STATS ================= -->
+
+<section class="stats">
+
+<div>
+
+<h2>120+</h2>
+
+<p>Articles</p>
+
+</div>
+
+<div>
+
+<h2>40K+</h2>
+
+<p>Readers</p>
+
+</div>
+
+<div>
+
+<h2>15+</h2>
+
+<p>Categories</p>
+
+</div>
+
+<div>
+
+<h2>100%</h2>
+
+<p>Free Content</p>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<div class="footer-content">
+
+<div>
+
+<h2>TechBlog</h2>
+
+<p>
+
+Helping developers learn
+modern web development.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Quick Links</h3>
+
+<a href="#">Home</a>
+
+<a href="#blogs">Blogs</a>
+
+<a href="about.html">About</a>
+
+<a href="contact.html">Contact</a>
+
+</div>
+
+<div>
+
+<h3>Follow Us</h3>
+
+<div class="social">
+
+<i class="fab fa-github"></i>
+
+<i class="fab fa-linkedin"></i>
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-twitter"></i>
+
+</div>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="copyright">
+
+© 2026 TechBlog. Designed by Devansh.
+
+</p>
+
+</footer>
+
+<!-- ================= BACK TO TOP ================= -->
+
+<button id="topBtn">
+
+<i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
